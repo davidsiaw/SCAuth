@@ -295,7 +295,7 @@ SCLoginFailed = 1;
 {
     var fieldFrame = [_formFieldContainer frame];
     [_window setFrameSize:CGSizeMake(fieldFrame.origin.x + fieldFrame.size.width,
-                                     fieldFrame.origin.y + fieldFrame.size.height + 30.0)];
+                                     fieldFrame.origin.y + fieldFrame.size.height + 32.0)];
 }
 
 /* @ignore */

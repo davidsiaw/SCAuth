@@ -24,8 +24,8 @@
     var retVal = nil;
     if (!password || password === "")
         retVal = "Password can't be blank.";
-    else if ([password length] < 4)
-        retVal = "Password must be at least 4 characters long.";
+    else if ([password length] < 9)
+        retVal = "Password must be at least 9 characters long.";
     else if (password !== confirmPassword)
         retVal = "Passwords don't match.";
 
